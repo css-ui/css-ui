@@ -1,0 +1,68 @@
+
+/*
+    base forms
+*/
+button, input, optgroup, select, textarea {
+    margin: 0;
+     color: inherit;
+      font: inherit;
+}
+
+button { overflow: visible; }
+button, select { text-transform: none; }
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+                cursor: pointer;
+}
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner,
+legend {
+    padding: 0;
+     border: 0;
+}
+
+input {
+    line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+       padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+fieldset {
+    padding: 0.35em 0.625em 0.75em;
+     border: 1px solid silver;
+     margin: 0 2px;
+}
+
+textarea { overflow: auto; }
+optgroup { font-weight: 700; }

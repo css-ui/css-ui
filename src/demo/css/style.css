@@ -1,0 +1,37 @@
+
+/*
+    import css styles
+*/
+@import url(css.ui.min.css);
+@import url(../addons/responsive.menu/css/responsive.menu.css);
+
+/*
+    custom styles
+*/
+body {
+    font-family: Segoe UI, sans-serif;
+        padding: 10px 0 25px;
+}
+
+h2 {
+    margin: 20px 0 30px;
+}
+
+/*
+    layout
+*/
+.container {
+    max-width: 1170px;
+}
+
+.view .column,
+.view .columns {
+    text-transform: uppercase;
+     margin-bottom: 5px;
+     border-radius: 3px;
+        background: #b4b4b4;
+        text-align: center;
+	 font-size: 0.750em;
+           padding: 5px;
+	     color: white;
+}

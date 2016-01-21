@@ -1,0 +1,64 @@
+
+/*
+    full width automatically adapts
+*/
+.full.width {
+    box-sizing: border-box;
+         width: 100%;
+}
+
+/*
+    maximum width automatically adapts
+*/
+.max.width {
+    box-sizing: border-box;
+     max-width: 100%;
+}
+
+/*
+    float element
+*/
+.float.right { float: right; }
+.float.left { float: left; }
+
+/*
+    text align
+*/
+.align.right { text-align: right; }
+.align.center { text-align: center; }
+.align.left { text-align: left; }
+
+/*
+    hidden element
+*/
+.screen.reader {
+    display: none;
+}
+
+/*
+    font weight
+*/
+.font.weight.normal { font-weight: normal; }
+.font.weight.strong { font-weight: 700; }
+
+/*
+    reset element
+*/
+.reset.style {
+    line-height: 0;
+        padding: 0;
+         margin: 0;
+         border: 0;
+}
+
+/*
+    clearing
+*/
+.clear:after {
+    visibility: hidden;
+     font-size: 0;
+       content: ".";
+       display: block;
+        height: 0;
+	 clear: both;
+}

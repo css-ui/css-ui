@@ -1,0 +1,162 @@
+
+/*
+    responses forms
+*/
+form {
+    margin-bottom: 2.5rem;
+}
+
+input[type="datetime-local"],
+input[type="datetime"],
+input[type="password"],
+input[type="number"],
+input[type="search"],
+input[type="email"],
+input[type="month"],
+input[type="color"],
+input[type="date"],
+input[type="time"],
+input[type="week"],
+input[type="text"],
+input[type="url"],
+input[type="tel"],
+select,
+textarea {
+    -webkit-box-sizing: border-box;
+      background-color: #fff;
+       -moz-box-sizing: border-box;
+         border-radius: 3px;
+	 margin-bottom: 0.375em;
+            box-sizing: border-box;
+	       padding: 0.5em 0.6em;
+	       display: inline-block;
+	        border: 1px solid #cfcfcf;
+		height: 38px;
+}
+
+input[type="datetime-local"]:focus,
+input[type="datetime"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="email"]:focus,
+input[type="month"]:focus,
+input[type="color"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="text"]:focus,
+input[type="url"]:focus,
+input[type="tel"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #b3b3b3;
+         outline: 0;
+}
+
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+    outline: thin dotted #4d4d4d;
+    outline: 1px auto #b3b3b3;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    vertical-align: middle;
+           display: inline;
+            margin: 0 0 3px;
+}
+
+input[type="datetime-local"][disabled],
+input[type="datetime"][disabled],
+input[type="password"][disabled],
+input[type="number"][disabled],
+input[type="search"][disabled],
+input[type="email"][disabled],
+input[type="month"][disabled],
+input[type="color"][disabled],
+input[type="date"][disabled],
+input[type="time"][disabled],
+input[type="week"][disabled],
+input[type="text"][disabled],
+input[type="url"][disabled],
+input[type="tel"][disabled],
+select[disabled],
+textarea[disabled] {
+    background-color: #eaeded;
+              cursor: not-allowed;
+	       color: #cad2d3;
+}
+
+input[readonly],
+select[readonly],
+textarea[readonly] {
+    border-color: #d3d3d3;
+      background: #efefef;
+           color: #838383;
+}
+
+input:focus:invalid,
+select:focus:invalid,
+textarea:focus:invalid {
+    border-color: #e77e7b;
+           color: #e77e7b;
+}
+
+input:focus:invalid:focus,
+select:focus:invalid:focus,
+textarea:focus:invalid:focus {
+    border-color: #e77e7b;
+}
+
+input[type="file"]:focus:invalid:focus,
+input[type="radio"]:focus:invalid:focus,
+input[type="checkbox"]:focus:invalid:focus {
+    outline-color: #e77e7b;
+}
+
+select[multiple] {
+    height: auto;
+}
+
+label {
+    margin-bottom: 0.5rem;
+          display: block;
+}
+
+fieldset {
+    border-radius: 3px;
+          padding: 35px;
+	   border: 1px solid #d7d7d7;
+}
+
+fieldset legend {
+    padding: 0 5px;
+     margin: 0 -5px;
+      width: auto;
+}
+
+textarea {
+    padding-bottom: 6px;
+       padding-top: 6px;
+        min-height: 65px;
+}
+
+input, textarea, select, fieldset {
+    margin-bottom: 1.5rem;
+}
+
+/*
+    help style for input
+*/
+i.help {
+    font-size: 90%;
+      display: block;
+	color: #a5a5a5;
+       margin: 0 0 10px 0;
+}
+
+i.help.inline {
+    display: inline-block;
+}

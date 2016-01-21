@@ -1,0 +1,24 @@
+
+/*
+    flash messages styles
+*/
+.message {
+    border-radius: 3px;
+      font-weight: 500;
+          padding: 10px 20px;
+}
+
+.message.success {
+    background: #9ceda7;
+         color: #277b35;
+}
+
+.message.info {
+    background: #9cd9ed;
+         color: #27667b;
+}
+
+.message.warning {
+    background: #ed9c9c;
+         color: #7b2727;
+}
