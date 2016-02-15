@@ -36,6 +36,16 @@
 }
 
 /*
+    bottom footer
+*/
+.bottom.footer  {
+    position: absolute;
+      bottom: 0;
+       right: 0;
+        left: 0;
+}
+
+/*
     font weight
 */
 .font.weight.normal { font-weight: normal; }
