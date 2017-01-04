@@ -3,66 +3,74 @@
     base forms
 */
 button, input, optgroup, select, textarea {
-    margin: 0;
-     color: inherit;
-      font: inherit;
+    font-family: sans-serif;
+    line-height: 1.15;
+      font-size: 100%;
+         margin: 0;
 }
 
-button { overflow: visible; }
+button, input { overflow: visible; }
 button, select { text-transform: none; }
 
-button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+button, html [type="button"], [type="reset"], [type="submit"] {
     -webkit-appearance: button;
                 cursor: pointer;
 }
 
-button[disabled],
-input[disabled] {
-    cursor: default;
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+    border-style: none;
+         padding: 0;
 }
 
-button::-moz-focus-inner,
-input::-moz-focus-inner,
-legend {
-    padding: 0;
-     border: 0;
+button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
 }
 
-input {
-    line-height: normal;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
+[type="checkbox"], [type="radio"] {
     box-sizing: border-box;
        padding: 0;
 }
 
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
     height: auto;
 }
 
-input[type="search"] {
+[type="search"] {
     -webkit-appearance: textfield;
-    -webkit-box-sizing: content-box;
-       -moz-box-sizing: content-box;
-            box-sizing: content-box;
+        outline-offset: -2px;
 }
 
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+                  font: inherit;
 }
 
 fieldset {
     padding: 0.35em 0.625em 0.75em;
-     border: 1px solid silver;
+     border: 1px solid #c0c0c0;
      margin: 0 2px;
 }
 
-textarea { overflow: auto; }
-optgroup { font-weight: 700; }
+textarea {
+    overflow: auto;
+}
+
+legend {
+    white-space: normal;
+     box-sizing: border-box;
+      max-width: 100%;
+        display: table;
+	padding: 0;
+	  color: inherit;
+}
+
+progress {
+    vertical-align: baseline;
+           display: inline-block;
+}
