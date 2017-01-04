@@ -3,7 +3,6 @@
     import css styles
 */
 @import url(css.ui.min.css);
-@import url(../addons/responsive.menu/css/responsive.menu.css);
 
 /*
     custom styles
@@ -22,6 +21,18 @@ h2 {
 */
 .container {
     max-width: 1170px;
+}
+
+/*
+    menu
+*/
+ul.menu {
+    list-style: none;
+}
+
+ul.menu li {
+    margin-left: 5px;
+        display: inline;
 }
 
 .view .column,
