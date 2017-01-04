@@ -21,43 +21,42 @@ body {
         margin: 0;
 }
 
+h1 {
+    font-size: 2em;
+       margin: 0.67em 0;
+}
+
 /*
     html5 display definitions
 */
-article, aside, details, figcaption, figure, footer, header, hgroup,
-main, menu, nav, section, summary {
+article, aside, details, figcaption, figure, footer, header,
+main, menu, nav, section {
     display: block;
 }
 
-audio, canvas, progress, video {
-    vertical-align: baseline;
-           display: inline-block;
-}
-
-audio:not([controls]) {
-    display: none;
-     height: 0;
-}
-
-[hidden], template {
-    display: none;
-}
-
-/*
-    links
-*/
-a {
-    background-color: transparent;
-}
-
-a:active, a:hover {
-    outline: 0;
+summary {
+    display: list-item;
 }
 
 /*
     text-level semantics
 */
-abbr[title] { border-bottom: 1px dotted; }
+a {
+    -webkit-text-decoration-skip: objects;
+                background-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline-width: 0;
+}
+
+abbr[title] {
+    text-decoration: underline;
+    text-decoration: underline dotted;
+      border-bottom: none;
+}
+
 b, strong { font-weight: 700; }
 dfn { font-style: italic; }
 
@@ -83,8 +82,17 @@ sub { bottom: -0.25em; }
 /*
     embedded content
 */
+audio, canvas, video {
+    display: inline-block;
+}
+
+audio:not([controls]) {
+    display: none;
+     height: 0;
+}
+
 img {
-    border: 0;
+    border-style: none;
 }
 
 svg:not(:root) {
@@ -99,13 +107,9 @@ figure {
 }
 
 hr {
-    -moz-box-sizing: content-box;
-         box-sizing: content-box;
-             height: 0;
-}
-
-pre {
-    overflow: auto;
+    box-sizing: content-box;
+      overflow: visible;
+        height: 0;
 }
 
 code, kbd, pre, samp {
@@ -114,13 +118,8 @@ code, kbd, pre, samp {
 }
 
 /*
-    tables
+    hidden
 */
-table {
-    border-collapse: collapse;
-     border-spacing: 0;
-}
-
-td, th {
-    padding: 0;
+template, [hidden] {
+    display: none;
 }
