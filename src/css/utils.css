@@ -38,7 +38,7 @@
 /*
     block element
 */
-.display.block {
+.screen.block {
     display: block;
 }
 
@@ -55,8 +55,8 @@
 /*
     font weight
 */
-.font.weight.normal { font-weight: normal; }
-.font.weight.strong { font-weight: 700; }
+.font.normal { font-weight: normal; }
+.font.strong { font-weight: 700; }
 
 /*
     clearing
