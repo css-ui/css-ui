@@ -1,5 +1,12 @@
 
 /*
+    wrapper element
+*/
+.wrapping {
+    display: block;
+}
+
+/*
     full width automatically adapts
 */
 .full.width {
@@ -33,13 +40,6 @@
 */
 .screen.reader {
     display: none;
-}
-
-/*
-    block element
-*/
-.screen.block {
-    display: block;
 }
 
 /*

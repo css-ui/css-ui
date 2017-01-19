@@ -8,6 +8,7 @@
 	<title>CSS UI - The code samples</title>
 
 	<!-- CSS styles -->
+	<link rel="stylesheet" href="../min/css.ui.min.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,83 +17,85 @@
 		<h1>CSS UI - The code samples</h1>
 
 		<!-- menu -->
-		<div class="row">
-			<div class="twelve columns">
-				<ul class="menu">
-					<li><a href="#buttons">Buttons</a></li>
-					<li><a href="#flash-message">Flash messages</a></li>
-					<li><a href="#form-style-1">Form style #1</a></li>
-					<li><a href="#form-style-2">Form style #2</a></li>
-					<li><a href="#form-style-3">Form style #3</a></li>
-					<li><a href="#form-style-4">Form style #4</a></li>
-					<li><a href="#form-style-5">Form style #5</a></li>
-					<li><a href="#form-style-6">Form style #6</a></li>
-					<li><a href="#form-style-7">Form style #7</a></li>
-					<li><a href="#form-style-8">Form style #8</a></li>
-					<li><a href="#grid">Grid system</a></li>
-					<li><a href="#image">Image responsive</a></li>
-				</ul>
-			</div>
+		<div class="wrapping">
+			<ul class="menu">
+				<li><a href="#buttons">Buttons</a></li>
+				<li><a href="#flash-message">Flash messages</a></li>
+				<li><a href="#form-style-1">Form style #1</a></li>
+				<li><a href="#form-style-2">Form style #2</a></li>
+				<li><a href="#form-style-3">Form style #3</a></li>
+				<li><a href="#form-style-4">Form style #4</a></li>
+				<li><a href="#form-style-5">Form style #5</a></li>
+				<li><a href="#form-style-6">Form style #6</a></li>
+				<li><a href="#form-style-7">Form style #7</a></li>
+				<li><a href="#form-style-8">Form style #8</a></li>
+				<li><a href="#grid">Grid system</a></li>
+				<li><a href="#image">Image responsive</a></li>
+			</ul>
 		</div>
 
 		<!-- buttons style -->
-		<div class="row">
-			<div class="twelve columns">
-				<h2 id="buttons">Buttons style</h2>
-				<a href="#" class="button">No style</a>
-				<a href="#" class="button default">Default</a>
-				<a href="#" class="button primary">Primary</a>
-				<a href="#" class="button common">Common</a>
-				<a href="#" class="button success">Success</a>
-				<a href="#" class="button danger">Danger</a>
+		<div class="wrapping">
+			<h2 id="buttons">Buttons style</h2>
+			<a href="#" class="button">No style</a>
+			<a href="#" class="button default">Default</a>
+			<a href="#" class="button primary">Primary</a>
+			<a href="#" class="button common">Common</a>
+			<a href="#" class="button success">Success</a>
+			<a href="#" class="button danger">Danger</a>
 
-				<h2>Larger button</h2>
-				<a href="#" class="button common larger">Larger button</a>
+			<h2>Larger button</h2>
+			<a href="#" class="button common larger">Larger button</a>
 
-				<h2>Bigger button</h2>
-				<a href="#" class="button common bigger">Bigger button</a>
+			<h2>Bigger button</h2>
+			<a href="#" class="button common bigger">Bigger button</a>
 
-				<h2>Full width bigger button</h2>
-				<a href="#" class="button primary bigger full width">Bigger button</a>
-			</div>
+			<h2>Full width bigger button</h2>
+			<a href="#" class="button primary bigger full width">Bigger button</a>
 		</div>
 
 		<!-- flash message -->
-		<div class="row">
-			<div class="twelve columns">
-				<h2 id="flash-message">Flash messages</h2>
-				<p class="message success">Success message</p>
-				<p class="message info">Info message</p>
-				<p class="message warning">Warning message</p>
-			</div>
+		<div class="wrapping">
+			<h2 id="flash-message">Flash messages</h2>
+			<p class="message success">Success message</p>
+			<p class="message info">Info message</p>
+			<p class="message warning">Warning message</p>
 		</div>
 
 		<!-- forms style -->
-		<div class="row">
-			<div class="twelve columns">
+		<div class="wrapping">
 
+			<!-- forms #1 -->
+			<div class="wrapping">
 				<h2 id="form-style-1">Forms #1</h2>
 				<form>
 					<input type="text" placeholder="Search keywords">
 					<input type="submit" class="button primary" value="Search">
 				</form>
+			</div>
 
+			<!-- form #2 -->
+			<div class="wrapping">
 				<h2 id="form-style-2">Form #2</h2>
 				<form>
 					<input type="text" placeholder="Username">
 					<input type="password" placeholder="Password" required>
 					<input type="submit" class="button primary" value="Submit">
 				</form>
+			</div>
 
+			<!-- form #3 -->
+			<div class="wrapping">
 				<h2 id="form-style-3">Form #3</h2>
 				<form>
 					<input type="text" placeholder="Username">
 					<input type="password" placeholder="Password" required>
-					<div>
-						<input type="submit" class="button primary" value="Submit">
-					</div>
+					<input type="submit" class="button primary wrapping" value="Submit">
 				</form>
+			</div>
 
+			<!-- form #4 -->
+			<div class="wrapping">
 				<h2 id="form-style-4">Form #4</h2>
 				<form>
 					<label for="email">Email</label>
@@ -100,11 +103,13 @@
 
 					<label for="realname">Realname</label>
 					<input type="text" id="realname" placeholder="Realname" required>
-					<div>
-						<input type="submit" class="button primary" value="Submit">
-					</div>
-				</form>
 
+					<input type="submit" class="button primary wrapping" value="Submit">
+				</form>
+			</div>
+
+			<!-- form #5 -->
+			<div class="wrapping">
 				<h2 id="form-style-5">Form #5</h2>
 				<form>
 					<label for="age">You age</label>
@@ -112,12 +117,17 @@
 
 					<label for="name">Name</label>
 					<input type="text" id="name" placeholder="Name" required>
-					<div>
-						<label><input type="checkbox"><span> Like you this style?</span></label>
-						<input type="submit" class="button primary" value="Submit">
-					</div>
-				</form>
 
+					<label for="checkbox">
+						<input type="checkbox" id="checkbox">
+						<span>Like you this style?</span>
+					</label>
+					<input type="submit" class="button primary" value="Submit">
+				</form>
+			</div>
+
+			<!-- form #6 -->
+			<div class="wrapping">
 				<h2 id="form-style-6">Form #6</h2>
 				<form>
 					<div class="row">
@@ -130,15 +140,21 @@
 							<input type="text" id="nick" placeholder="Nick" required class="full width">
 						</div>
 					</div>
-					<label><input type="checkbox"><span> Like you this style?</span></label>
+					<label for="checkbox">
+						<input type="checkbox" id="checkbox">
+						<span>Like you this style?</span>
+					</label>
 					<input type="submit" class="button primary" value="Submit">
 				</form>
+			</div>
 
-				<h2 id="form-style-7">form #7</h2>
+			<!-- form #7 -->
+			<div class="wrapping">
+				<h2 id="form-style-7">Form #7</h2>
 				<form>
 					<div class="row">
 						<div class="six columns">
-							<input type="text" placeholder="Username" class="full width">
+							<input type="text" placeholder="Username" class="six columns full width">
 						</div>
 						<div class="six columns">
 							<input type="password" placeholder="Password" required class="full width">
@@ -146,8 +162,11 @@
 					</div>
 					<input type="submit" class="button common full width" value="Submit">
 				</form>
+			</div>
 
-				<h2 id="form-style-8">form #8</h2>
+			<!-- form #8 -->
+			<div class="screen block">
+				<h2 id="form-style-8">Form #8</h2>
 				<form>
 					<fieldset>
 						<legend>Form style</legend>
@@ -170,77 +189,73 @@
 		</div>
 
 		<!-- grid system -->
-	    	<div class="row">
-			<div class="twelve columns">
-				<h2 id="grid">Grid system</h2>
-				<div class="row view">
-					<div class="one column">one</div>
-					<div class="eleven columns">eleven</div>
-				</div>
-				<div class="row view">
-					<div class="two columns">two</div>
-					<div class="ten columns">ten</div>
-				</div>
-				<div class="row view">
-					<div class="three columns">three</div>
-					<div class="nine columns">nine</div>
-				</div>
-				<div class="row view">
-					<div class="four columns">four</div>
-					<div class="eight columns">eight</div>
-				</div>
-				<div class="row view">
-					<div class="five columns">five</div>
-					<div class="seven columns">seven</div>
-				</div>
-				<div class="row view">
-					<div class="six columns">six</div>
-					<div class="six columns">six</div>
-				</div>
-				<div class="row view">
-					<div class="seven columns">seven</div>
-					<div class="five columns">five</div>
-				</div>
-				<div class="row view">
-					<div class="eight columns">eight</div>
-					<div class="four columns">four</div>
-				</div>
-				<div class="row view">
-					<div class="nine columns">nine</div>
-					<div class="three columns">three</div>
-				</div>
-				<div class="row view">
-					<div class="ten columns">ten</div>
-					<div class="two columns">two</div>
-				</div>
-				<div class="row view">
-					<div class="eleven columns">eleven</div>
-					<div class="one column">one</div>
-				</div>
-				<div class="row view">
-					<div class="twelve columns">twelve</div>
-				</div>
-				<div class="row view">
-					<div class="one-third column">one third</div>
-					<div class="one-third column">one third</div>
-					<div class="one-third column">one third</div>
-				</div>
-				<div class="row view">
-					<div class="one-half column">one half</div>
-					<div class="one-half column">one half</div>
-				</div>
-				<div class="row view">
-					<div class="two-thirds columns">two thirds</div>
-				</div>
+	    	<div class="wrapping">
+			<h2 id="grid">Grid system</h2>
+			<div class="row view">
+				<div class="one column">one</div>
+				<div class="eleven columns">eleven</div>
+			</div>
+			<div class="row view">
+				<div class="two columns">two</div>
+				<div class="ten columns">ten</div>
+			</div>
+			<div class="row view">
+				<div class="three columns">three</div>
+				<div class="nine columns">nine</div>
+			</div>
+			<div class="row view">
+				<div class="four columns">four</div>
+				<div class="eight columns">eight</div>
+			</div>
+			<div class="row view">
+				<div class="five columns">five</div>
+				<div class="seven columns">seven</div>
+			</div>
+			<div class="row view">
+				<div class="six columns">six</div>
+				<div class="six columns">six</div>
+			</div>
+			<div class="row view">
+				<div class="seven columns">seven</div>
+				<div class="five columns">five</div>
+			</div>
+			<div class="row view">
+				<div class="eight columns">eight</div>
+				<div class="four columns">four</div>
+			</div>
+			<div class="row view">
+				<div class="nine columns">nine</div>
+				<div class="three columns">three</div>
+			</div>
+			<div class="row view">
+				<div class="ten columns">ten</div>
+				<div class="two columns">two</div>
+			</div>
+			<div class="row view">
+				<div class="eleven columns">eleven</div>
+				<div class="one column">one</div>
+			</div>
+			<div class="row view">
+				<div class="twelve columns">twelve</div>
+			</div>
+			<div class="row view">
+				<div class="one-third column">one third</div>
+				<div class="one-third column">one third</div>
+				<div class="one-third column">one third</div>
+			</div>
+			<div class="row view">
+				<div class="one-half column">one half</div>
+				<div class="one-half column">one half</div>
+			</div>
+			<div class="row view">
+				<div class="two-thirds columns">two thirds</div>
 			</div>
 		</div>
 
 		<!-- responsive image -->
-		<div class="row">
-			<div class="twelve columns">
-				<h2 id="image">Responsive image</h2>
-				<img src="img/logo.png" alt="CSS UI Framework" class="max width">
-			</div>
+		<div class="wrapping">
+			<h2 id="image">Responsive image</h2>
+			<img src="img/logo.png" alt="CSS UI Framework" class="max width">
 		</div>
 	</div>
 </body>
