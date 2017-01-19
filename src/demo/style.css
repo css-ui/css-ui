@@ -1,5 +1,10 @@
 
 /*
+    import css styles
+*/
+@import url(../min/css.ui.min.css);
+
+/*
     custom styles
 */
 body {
