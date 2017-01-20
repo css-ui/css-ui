@@ -62,7 +62,10 @@
     clearing
 */
 .clear:after {
-    content: ".";
-    display: block;
-      clear: both;
+    visibility: hidden;
+     font-size: 0;
+       content: ".";
+       display: block;
+        height: 0;
+	 clear: both;
 }
