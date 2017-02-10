@@ -1,3 +1,3 @@
 ## CSS UI
 
-Simple CSS styles for simple websites.
+Basic styles for simple websites.
