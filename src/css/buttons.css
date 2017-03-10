@@ -39,13 +39,13 @@
 
 
 .button.primary {
-    background-color: #11abfe;
+    background-color: #10a2f1;
                color: #fff;
 }
 
 .button.primary:hover,
 .button.primary:focus {
-    background-color: #10a2f1;
+    background-color: #0f9ce8;
 	       color: #fff;
 }
 
