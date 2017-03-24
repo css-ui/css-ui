@@ -2,7 +2,14 @@
 /*
     import css styles
 */
-@import url(../min/css.ui.min.css);
+@import url(../css/base.css);
+@import url(../css/base.responsive.css);
+@import url(../css/buttons.css);
+@import url(../css/forms.css);
+@import url(../css/forms.responsive.css);
+@import url(../css/grid.css);
+@import url(../css/messages.css);
+@import url(../css/utils.css);
 
 /*
     custom styles

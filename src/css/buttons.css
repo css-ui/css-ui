@@ -9,7 +9,6 @@
        margin-bottom: 1rem;
        border-radius: 3px;
          line-height: 38px;
-	 white-space: nowrap;
 	  text-align: center;
 	  box-sizing: border-box;
 	   min-width: 110px;
@@ -23,8 +22,8 @@
 
 .button:hover,
 .button:focus {
-            outline: 0;
-	      color: #2f2f2f;
+    outline: 0;
+      color: #2f2f2f;
 }
 
 .button.default {
@@ -37,6 +36,33 @@
     border-color: #b3b3b3;
 }
 
+.button.default.primary {
+    line-height: 36px;
+     background: none;
+         border: 1px solid #10a2f1;
+	  color: #10a2f1;
+}
+
+.button.default.common {
+    line-height: 36px;
+     background: none;
+         border: 1px solid #545454;
+	  color: #545454;
+}
+
+.button.default.success {
+    line-height: 36px;
+     background: none;
+         border: 1px solid #68c041;
+	  color: #68c041;
+}
+
+.button.default.danger {
+    line-height: 36px;
+     background: none;
+         border: 1px solid #e24343;
+	  color: #e24343;
+}
 
 .button.primary {
     background-color: #10a2f1;
@@ -80,14 +106,6 @@
 .button.danger:focus {
     background-color: #d43e3e;
 	       color: #fff;
-}
-
-.button.default,
-.button.primary,
-.button.common,
-.button.success,
-.button.danger {
-    text-decoration: none;
 }
 
 .button.larger {
