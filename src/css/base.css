@@ -54,7 +54,6 @@ a:hover {
 
 abbr[title] {
     text-decoration: underline;
-    text-decoration: underline dotted;
       border-bottom: none;
 }
 
@@ -73,7 +72,7 @@ small {
 sub, sup {
     vertical-align: baseline;
        line-height: 0;
-         font-size: 75%;
+         font-size: 80%;
 	  position: relative;
 }
 
