@@ -28,6 +28,7 @@ textarea {
 	       display: inline-block;
 	        border: 1px solid #cfcfcf;
 		height: 38px;
+		 width: 190px;
 }
 
 [type="password"]:focus,
@@ -114,7 +115,7 @@ textarea {
         min-height: 65px;
 }
 
-input, textarea, select, fieldset {
+input, textarea, fieldset {
     margin-bottom: 1.5rem;
 }
 
