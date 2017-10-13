@@ -1,6 +1,6 @@
 
 /*
-    buttons styles
+    buttons style
 */
 .button {
     background-color: transparent;
@@ -8,15 +8,15 @@
       letter-spacing: 0.1rem;
        margin-bottom: 1rem;
        border-radius: 3px;
-         line-height: 38px;
+         line-height: 36px;
 	  text-align: center;
 	  box-sizing: border-box;
-	   min-width: 110px;
+	   min-width: 100px;
 	     display: inline-block;
-	     padding: 0 20px;
+	     padding: 0;
 	      border: none;
 	      cursor: pointer;
-	      height: 38px;
+	      height: 36px;
 	       color: #545454;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .button.default {
-    line-height: 36px;
+    line-height: 34px;
          border: 1px solid #cfcfcf;
 }
 
@@ -37,28 +37,28 @@
 }
 
 .button.default.primary {
-    line-height: 36px;
+    line-height: 34px;
      background: none;
          border: 1px solid #10a2f1;
 	  color: #10a2f1;
 }
 
 .button.default.common {
-    line-height: 36px;
+    line-height: 34px;
      background: none;
          border: 1px solid #545454;
 	  color: #545454;
 }
 
 .button.default.success {
-    line-height: 36px;
+    line-height: 34px;
      background: none;
          border: 1px solid #68c041;
 	  color: #68c041;
 }
 
 .button.default.danger {
-    line-height: 36px;
+    line-height: 34px;
      background: none;
          border: 1px solid #e24343;
 	  color: #e24343;
@@ -109,15 +109,15 @@
 }
 
 .button.larger {
-    line-height: 48px;
+    line-height: 46px;
+      min-width: 150px;
       font-size: 1.125em;
-        padding: 0 25px;
-         height: 48px;
+         height: 46px;
 }
 
 .button.bigger {
-    line-height: 58px;
+    line-height: 56px;
+      min-width: 200px;
       font-size: 1.250em;
-        padding: 0 30px;
-         height: 58px;
+         height: 56px;
 }

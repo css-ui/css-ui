@@ -2,21 +2,18 @@
 /*
     import css styles
 */
-@import url(../css/base.css);
-@import url(../css/base.responsive.css);
-@import url(../css/buttons.css);
-@import url(../css/forms.css);
-@import url(../css/forms.responsive.css);
-@import url(../css/grid.css);
-@import url(../css/messages.css);
-@import url(../css/utils.css);
+@import url(../css/ui.base.css);
+@import url(../css/ui.buttons.css);
+@import url(../css/ui.forms.css);
+@import url(../css/ui.grid.css);
+@import url(../css/ui.messages.css);
+@import url(../css/ui.utils.css);
 
 /*
     custom styles
 */
 body {
-    font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
-        padding: 10px 0 25px;
+    padding: 10px 0 25px;
 }
 
 h2 {

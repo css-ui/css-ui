@@ -1,46 +1,60 @@
 
 /*
-    responses forms
+    forms style
 */
 form {
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+     font: inherit;
+}
+
+button, html [type="button"], [type="reset"], [type="submit"] {
+    cursor: pointer;
 }
 
 [type="password"],
 [type="number"],
 [type="search"],
 [type="email"],
-[type="color"],
-[type="range"],
-[type="date"],
 [type="text"],
-[type="url"],
 [type="tel"],
+[type="url"],
 select,
 textarea {
-    -webkit-box-sizing: border-box;
-      background-color: #fff;
-       -moz-box-sizing: border-box;
-         border-radius: 3px;
-	 margin-bottom: 0.375em;
-            box-sizing: border-box;
-	       padding: 0.5em 0.6em;
-	       display: inline-block;
-	        border: 1px solid #cfcfcf;
-		height: 38px;
-		 width: 190px;
+    background-color: #fff;
+       border-radius: 3px;
+       margin-bottom: 0.375em;
+          box-sizing: border-box;
+	     padding: 0.5em 0.6em;
+	     display: inline-block;
+	      border: 1px solid #cfcfcf;
+	      height: 36px;
+	       width: 190px;
+}
+
+[type="password"],
+[type="number"],
+[type="search"],
+[type="email"],
+[type="text"],
+[type="tel"],
+[type="url"],
+textarea {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
 }
 
 [type="password"]:focus,
 [type="number"]:focus,
 [type="search"]:focus,
 [type="email"]:focus,
-[type="color"]:focus,
-[type="range"]:focus,
-[type="date"]:focus,
 [type="text"]:focus,
-[type="url"]:focus,
 [type="tel"]:focus,
+[type="url"]:focus,
 select:focus,
 textarea:focus {
     border-color: #b3b3b3;
@@ -99,23 +113,23 @@ label {
 
 fieldset {
     border-radius: 3px;
-          padding: 35px;
+          padding: 0.875em;
 	   border: 1px solid #d7d7d7;
+	   margin: 0;
 }
 
 legend {
-    padding: 0 5px;
-     margin: 0 -5px;
-      width: auto;
+    font-weight: 500;
+        padding: 0 5px;
+         margin: 0 -5px;
 }
 
 textarea {
-    padding-bottom: 6px;
-       padding-top: 6px;
-        min-height: 65px;
+    min-height: 65px;
+       display: block;
 }
 
-input, textarea, fieldset {
+input, fieldset {
     margin-bottom: 1.5rem;
 }
 
