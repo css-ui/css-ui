@@ -13,7 +13,7 @@
 	  box-sizing: border-box;
 	   min-width: 100px;
 	     display: inline-block;
-	     padding: 0;
+	     padding: 0 15px;
 	      border: none;
 	      cursor: pointer;
 	      height: 36px;
@@ -110,14 +110,12 @@
 
 .button.larger {
     line-height: 46px;
-      min-width: 150px;
       font-size: 1.125em;
          height: 46px;
 }
 
 .button.bigger {
     line-height: 56px;
-      min-width: 200px;
       font-size: 1.250em;
          height: 56px;
 }
