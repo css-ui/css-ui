@@ -8,7 +8,7 @@
       letter-spacing: 0.1rem;
        margin-bottom: 1rem;
        border-radius: 3px;
-         line-height: 36px;
+         line-height: 38px;
 	  text-align: center;
 	  box-sizing: border-box;
 	   min-width: 100px;
@@ -16,7 +16,7 @@
 	     padding: 0 15px;
 	      border: none;
 	      cursor: pointer;
-	      height: 36px;
+	      height: 38px;
 	       color: #545454;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .button.default {
-    line-height: 34px;
+    line-height: 36px;
          border: 1px solid #cfcfcf;
 }
 
@@ -37,28 +37,28 @@
 }
 
 .button.default.primary {
-    line-height: 34px;
+    line-height: 36px;
      background: none;
          border: 1px solid #10a2f1;
 	  color: #10a2f1;
 }
 
 .button.default.common {
-    line-height: 34px;
+    line-height: 36px;
      background: none;
          border: 1px solid #545454;
 	  color: #545454;
 }
 
 .button.default.success {
-    line-height: 34px;
+    line-height: 36px;
      background: none;
          border: 1px solid #68c041;
 	  color: #68c041;
 }
 
 .button.default.danger {
-    line-height: 34px;
+    line-height: 36px;
      background: none;
          border: 1px solid #e24343;
 	  color: #e24343;
@@ -109,13 +109,13 @@
 }
 
 .button.larger {
-    line-height: 46px;
+    line-height: 48px;
       font-size: 1.125em;
-         height: 46px;
+         height: 48px;
 }
 
 .button.bigger {
-    line-height: 56px;
+    line-height: 58px;
       font-size: 1.250em;
-         height: 56px;
+         height: 58px;
 }
