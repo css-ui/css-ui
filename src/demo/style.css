@@ -35,9 +35,16 @@ ul.menu li {
     text-transform: uppercase;
      margin-bottom: 5px;
      border-radius: 3px;
-        background: #c0c0c0;
+        background: #f2f2f2;
         text-align: center;
 	 font-size: 0.750em;
            padding: 5px;
-	     color: white;
+	     color: #838383;
+}
+
+/*
+    buttons
+*/
+.button {
+    margin-right: 5px;
 }

@@ -8,27 +8,37 @@
       letter-spacing: 0.1rem;
        margin-bottom: 1rem;
        border-radius: 3px;
-         line-height: 38px;
+         line-height: 36px;
 	  text-align: center;
 	  box-sizing: border-box;
-	   min-width: 100px;
 	     display: inline-block;
-	     padding: 0 15px;
+	     padding: 0 12px;
 	      border: none;
 	      cursor: pointer;
-	      height: 38px;
+	      height: 36px;
 	       color: #545454;
 }
 
 .button:hover,
 .button:focus {
+    background-color: #f4f4f4;
     outline: 0;
       color: #2f2f2f;
 }
 
 .button.default {
-    line-height: 36px;
-         border: 1px solid #cfcfcf;
+    border: 1px solid #cfcfcf;
+}
+
+.button.default,
+.button.default.primary,
+.button.default.common,
+.button.default.success,
+.button.default.warning,
+.button.default.danger {
+    line-height: 34px;
+     background: none;
+        padding: 0 11px;
 }
 
 .button.default:hover,
@@ -37,41 +47,72 @@
 }
 
 .button.default.primary {
-    line-height: 36px;
-     background: none;
-         border: 1px solid #10a2f1;
-	  color: #10a2f1;
+    border: 1px solid #1ba2eb;
+     color: #10a2f1;
+}
+
+.button.default.primary:hover,
+.button.default.primary:focus {
+    background-color: #1ba2eb;
 }
 
 .button.default.common {
-    line-height: 36px;
-     background: none;
-         border: 1px solid #545454;
-	  color: #545454;
+    border: 1px solid #545454;
+     color: #545454;
+}
+
+.button.default.common:hover,
+.button.default.common:focus {
+    background-color: #545454;
 }
 
 .button.default.success {
-    line-height: 36px;
-     background: none;
-         border: 1px solid #68c041;
-	  color: #68c041;
+    border: 1px solid #52d064;
+     color: #68c041;
+}
+
+.button.default.success:hover,
+.button.default.success:focus {
+    background-color: #52d064;
+}
+
+.button.default.warning {
+    border: 1px solid #ffd965;
+     color: #e4ac00;
+}
+
+.button.default.warning:hover,
+.button.default.warning:focus {
+    background-color: #ffd965;
 }
 
 .button.default.danger {
-    line-height: 36px;
-     background: none;
-         border: 1px solid #e24343;
-	  color: #e24343;
+    border: 1px solid #ff3e59;
+     color: #e24343;
+}
+
+.button.default.danger:hover,
+.button.default.danger:focus {
+    background-color: #ff3e59;
+}
+
+.button.light {
+    background-color: #f4f4f4;
+}
+
+.button.light:hover,
+.button.light:focus {
+    background-color: #eee;
 }
 
 .button.primary {
-    background-color: #10a2f1;
+    background-color: #1ba2eb;
                color: #fff;
 }
 
 .button.primary:hover,
 .button.primary:focus {
-    background-color: #0f9ce8;
+    background-color: #199adf;
 	       color: #fff;
 }
 
@@ -82,40 +123,59 @@
 
 .button.common:hover,
 .button.common:focus {
-    background-color: #484848;
+    background-color: #4b4b4b;
 	       color: #fff;
 }
 
 .button.success {
-    background-color: #68c041;
+    background-color: #52d064;
                color: #fff;
 }
 
 .button.success:hover,
 .button.success:focus {
-    background-color: #61b43d;
+    background-color: #4fc860;
 	       color: #fff;
 }
 
+.button.warning {
+    background-color: #ffd965;
+               color: #5a5031;
+}
+
+.button.warning:hover,
+.button.warning:focus {
+    background-color: #fad35b;
+	       color: #5a5031;
+}
+
 .button.danger {
-    background-color: #e24343;
+    background-color: #ff3e59;
                color: #fff;
 }
 
 .button.danger:hover,
 .button.danger:focus {
-    background-color: #d43e3e;
+    background-color: #f33b55;
 	       color: #fff;
 }
 
+.button.small {
+    line-height: 30px;
+      font-size: small;
+         height: 30px;
+}
+
 .button.larger {
-    line-height: 48px;
+    line-height: 42px;
       font-size: 1.125em;
-         height: 48px;
+        padding: 0 14px;
+         height: 42px;
 }
 
 .button.bigger {
-    line-height: 58px;
+    line-height: 48px;
       font-size: 1.250em;
-         height: 58px;
+        padding: 0 16px;
+         height: 48px;
 }

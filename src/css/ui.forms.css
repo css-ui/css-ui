@@ -28,11 +28,11 @@ textarea {
        border-radius: 3px;
        margin-bottom: 0.375em;
           box-sizing: border-box;
+	   min-width: 200px;
 	     padding: 0.5em 0.6em;
 	     display: inline-block;
 	      border: 1px solid #cfcfcf;
-	      height: 38px;
-	       width: 190px;
+	      height: 36px;
 }
 
 [type="password"],
@@ -94,6 +94,19 @@ textarea:focus {
 
 :focus:invalid:focus {
     border-color: #e77e7b;
+}
+
+::placeholder {
+    opacity: 1;
+      color: #cbcbcb;
+}
+
+:-ms-input-placeholder {
+    color: #cbcbcb;
+}
+
+::-ms-input-placeholder { 
+    color: #cbcbcb;
 }
 
 [type="file"]:focus:invalid:focus,

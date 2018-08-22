@@ -4,21 +4,27 @@
 */
 .message {
     border-radius: 3px;
-      font-weight: 600;
-          padding: 8px 16px;
+          padding: 20px;
+	    color: white;
+}
+
+.message.primary {
+    background: #1ba2eb;
+}
+
+.message.common {
+    background: #545454;
 }
 
 .message.success {
-    background: #9ceda7;
-         color: #277b35;
-}
-
-.message.info {
-    background: #9cd9ed;
-         color: #27667b;
+    background: #52d064;
 }
 
 .message.warning {
-    background: #ed9c9c;
-         color: #7b2727;
+    background: #ffd965;
+         color: #5a5031;
+}
+
+.message.danger {
+    background: #ff3e59;
 }
