@@ -1,19 +1,10 @@
 
 /*
-    import css styles
-*/
-@import url(../css/ui.base.css);
-@import url(../css/ui.buttons.css);
-@import url(../css/ui.forms.css);
-@import url(../css/ui.grid.css);
-@import url(../css/ui.messages.css);
-@import url(../css/ui.utils.css);
-
-/*
     custom styles
 */
 body {
-    padding: 10px 0 25px;
+    font-family: 'Open Sans', sans-serif;
+        padding: 10px 0 25px;
 }
 
 h2 {
