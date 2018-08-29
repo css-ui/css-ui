@@ -8,6 +8,7 @@
       letter-spacing: 0.1rem;
        margin-bottom: 1rem;
        border-radius: 3px;
+         user-select: none;
          line-height: 36px;
 	  text-align: center;
 	  box-sizing: border-box;
