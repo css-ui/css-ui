@@ -1,17 +1,19 @@
 
-/*
-    forms style
-*/
+/* Forms style
+   ========================================================================== */
 form {
     margin-bottom: 1.5rem;
 }
 
 button, input, optgroup, select, textarea {
     color: inherit;
-     font: inherit;
+    font: inherit;
 }
 
-button, html [type="button"], [type="reset"], [type="submit"] {
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
     cursor: pointer;
 }
 
@@ -25,14 +27,14 @@ button, html [type="button"], [type="reset"], [type="submit"] {
 select,
 textarea {
     background-color: #fff;
-       border-radius: 3px;
-       margin-bottom: 0.375em;
-          box-sizing: border-box;
-	   min-width: 200px;
-	     padding: 0.5em 0.6em;
-	     display: inline-block;
-	      border: 1px solid #cfcfcf;
-	      height: 36px;
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 36px;
+    margin-bottom: 0.375em;
+    min-width: 200px;
+    padding: 0.5em 0.6em;
 }
 
 [type="password"],
@@ -43,9 +45,9 @@ textarea {
 [type="tel"],
 [type="url"],
 textarea {
+    appearance: none;
+    -moz-appearance: none;
     -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
 }
 
 [type="password"]:focus,
@@ -58,14 +60,14 @@ textarea {
 select:focus,
 textarea:focus {
     border-color: #b3b3b3;
-         outline: 0;
+    outline: 0;
 }
 
 [type="checkbox"],
 [type="radio"] {
+    display: inline;
+    margin: 0 0 3px;
     vertical-align: middle;
-           display: inline;
-            margin: 0 0 3px;
 }
 
 [type="radio"]:focus,
@@ -76,20 +78,20 @@ textarea:focus {
 
 [disabled] {
     background-color: #f5f5f5;
-        border-color: #e3e3e3;
-              cursor: not-allowed;
-	       color: #c6c6c6;
+    border-color: #e3e3e3;
+    color: #c6c6c6;
+    cursor: not-allowed;
 }
 
 [readonly] {
+    background: #efefef;
     border-color: #d3d3d3;
-      background: #efefef;
-           color: #838383;
+    color: #838383;
 }
 
 :focus:invalid {
     border-color: #e77e7b;
-           color: #e77e7b;
+    color: #e77e7b;
 }
 
 :focus:invalid:focus {
@@ -97,15 +99,15 @@ textarea:focus {
 }
 
 ::placeholder {
+    color: #cbcbcb;
     opacity: 1;
-      color: #cbcbcb;
 }
 
 :-ms-input-placeholder {
     color: #cbcbcb;
 }
 
-::-ms-input-placeholder { 
+::-ms-input-placeholder {
     color: #cbcbcb;
 }
 
@@ -120,41 +122,41 @@ textarea:focus {
 }
 
 label {
+    display: block;
     margin-bottom: 0.5rem;
-          display: block;
 }
 
 fieldset {
     background-color: #f9f9f9;
-       border-radius: 3px;
-             padding: 0.875em 1.5em;
-	      border: 1px solid #d7d7d7;
-	      margin: 0;
+    border: 1px solid #d7d7d7;
+    border-radius: 3px;
+    margin: 0;
+    padding: 0.875em 1.5em;
 }
 
 legend {
     font-weight: 500;
-        padding: 0 5px;
-         margin: 0 -5px;
+    margin: 0 -5px;
+    padding: 0 5px;
 }
 
 textarea {
+    display: block;
     min-height: 65px;
-       display: block;
 }
 
 input, fieldset {
     margin-bottom: 1.5rem;
 }
 
-/*
-    help style for input
-*/
+
+/* Help info for input
+   ========================================================================== */
 i.help {
+    display: block;
+    color: #a5a5a5;
     font-size: 90%;
-      display: block;
-	color: #a5a5a5;
-       margin: 0 0 10px 0;
+    margin: 0 0 10px 0;
 }
 
 i.help.inline {

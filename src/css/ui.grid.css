@@ -1,29 +1,29 @@
 
-/*
-    grid style
-*/
+/* Grid style
+   ========================================================================== */
 .container {
     box-sizing: border-box;
-      position: relative;
-       padding: 0 20px;
-        margin: 0 auto;
-         width: 100%;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 20px;
+    position: relative;
+    width: 100%;
 }
 
 .container::before {
-    display: none;
     content: 'mobile';
+    display: none;
 }
 
 @media only screen and (min-width: 768px) {
 
     .container {
 	padding: 0;
-	  width: 85%;
+	width: 85%;
     }
 
     .container::before {
-       content: 'tablet';
+	content: 'tablet';
     }
 
 }
@@ -35,7 +35,7 @@
     }
 
     .container::before {
-       content: 'desktop';
+	content: 'desktop';
     }
 
 }
@@ -43,8 +43,8 @@
 .column,
 .columns {
     box-sizing: border-box;
-	 float: left;
-	 width: 100%;
+    float: left;
+    width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -106,7 +106,7 @@
 
     .twelve.columns {
 	margin-left: 0;
-	      width: 100%;
+	width: 100%;
     }
 
     .one-third.column {
@@ -198,7 +198,7 @@
 */
 .container:after,
 .row:after {
+    clear: both;
     content: "";
     display: table;
-      clear: both;
 }

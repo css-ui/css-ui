@@ -1,50 +1,43 @@
 
-/*
-    utils style
-*/
+/* Utils style
+   ========================================================================== */
 .wrapper {
     display: block;
 }
 
-/*
-    full width automatically adapts
-*/
+/* Full width automatically adapts
+   ========================================================================== */
 .full.width {
     box-sizing: border-box;
-         width: 100%;
+    width: 100%;
 }
 
-/*
-    maximum width automatically adapts
-*/
+/* Maximum width automatically adapts
+   ========================================================================== */
 .max.width {
     box-sizing: border-box;
-     max-width: 100%;
+    max-width: 100%;
 }
 
-/*
-    float element
-*/
+/* Floats
+   ========================================================================== */
 .float.right { float: right; }
 .float.left { float: left; }
 
-/*
-    text align
-*/
+/* Text align
+   ========================================================================== */
 .align.right { text-align: right; }
 .align.center { text-align: center; }
 .align.left { text-align: left; }
 
-/*
-    hidden element
-*/
+/* Hide element
+   ========================================================================== */
 .screen.reader {
     display: none;
 }
 
-/*
-    bottom footer
-*/
+/* Boottom footer
+   ========================================================================== */
 .bottom.footer  {
     position: absolute;
       bottom: 0;
@@ -52,15 +45,8 @@
         left: 0;
 }
 
-/*
-    font weight
-*/
-.font.normal { font-weight: normal; }
-.font.strong { font-weight: 700; }
-
-/*
-    clearing
-*/
+/* Clearing
+   ========================================================================== */
 .clear:after {
     visibility: hidden;
      font-size: 0;

@@ -1,11 +1,10 @@
 
-/*
-    message style
-*/
+/* Messages style
+   ========================================================================== */
 .message {
     border-radius: 3px;
-          padding: 20px;
-	    color: white;
+    color: white;
+    padding: 20px;
 }
 
 .message.primary {
@@ -22,7 +21,7 @@
 
 .message.warning {
     background: #ffd965;
-         color: #5a5031;
+    color: #5a5031;
 }
 
 .message.danger {
