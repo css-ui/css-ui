@@ -40,18 +40,18 @@
    ========================================================================== */
 .bottom.footer  {
     position: absolute;
-      bottom: 0;
-       right: 0;
-        left: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 /* Clearing
    ========================================================================== */
 .clear:after {
     visibility: hidden;
-     font-size: 0;
-       content: ".";
-       display: block;
-        height: 0;
-	 clear: both;
+    font-size: 0;
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
 }

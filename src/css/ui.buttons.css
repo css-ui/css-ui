@@ -30,7 +30,7 @@
    ========================================================================== */
 .button.primary {
     background-color: #1ba2eb;
-               color: #fff;
+    color: #fff;
 }
 
 .button.primary:hover,
@@ -151,8 +151,8 @@
 .button.success.outline,
 .button.warning.outline,
 .button.danger.outline {
-     background: none;
-     padding: 0 11px;
+    background: none;
+    padding: 0 11px;
 }
 
 /* Non-specific buttons
