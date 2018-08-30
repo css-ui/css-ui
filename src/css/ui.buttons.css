@@ -9,12 +9,12 @@
        margin-bottom: 1rem;
        border-radius: 3px;
          user-select: none;
-         line-height: 36px;
+         line-height: 34px;
 	  text-align: center;
 	  box-sizing: border-box;
 	     display: inline-block;
 	     padding: 0 12px;
-	      border: none;
+	      border: 1px solid #cfcfcf;
 	      cursor: pointer;
 	      height: 36px;
 	       color: #545454;
@@ -22,89 +22,105 @@
 
 .button:hover,
 .button:focus {
-    background-color: #f4f4f4;
-    outline: 0;
-      color: #2f2f2f;
+    border-color: #b3b3b3;
+         outline: none;
+           color: #2f2f2f;
 }
 
-.button.default {
-    border: 1px solid #cfcfcf;
+.button.primary,
+.button.common,
+.button.success,
+.button.warning,
+.button.danger,
+.button.white,
+.button.light {
+    line-height: 36px;
+         border: none;
 }
 
-.button.default,
-.button.default.primary,
-.button.default.common,
-.button.default.success,
-.button.default.warning,
-.button.default.danger {
-    line-height: 34px;
+.button.primary.outline,
+.button.common.outline,
+.button.success.outline,
+.button.warning.outline,
+.button.danger.outline {
      background: none;
         padding: 0 11px;
 }
 
-.button.default:hover,
-.button.default:focus {
-    border-color: #b3b3b3;
-}
-
-.button.default.primary {
+.button.primary.outline {
     border: 1px solid #1ba2eb;
      color: #10a2f1;
 }
 
-.button.default.primary:hover,
-.button.default.primary:focus {
+.button.primary.outline:hover,
+.button.primary.outline:focus {
     background-color: #1ba2eb;
 }
 
-.button.default.common {
+.button.common.outline {
     border: 1px solid #545454;
      color: #545454;
 }
 
-.button.default.common:hover,
-.button.default.common:focus {
+.button.common.outline:hover,
+.button.common.outline:focus {
     background-color: #545454;
 }
 
-.button.default.success {
+.button.success.outline {
     border: 1px solid #52d064;
      color: #68c041;
 }
 
-.button.default.success:hover,
-.button.default.success:focus {
+.button.success.outline:hover,
+.button.success.outline:focus {
     background-color: #52d064;
 }
 
-.button.default.warning {
+.button.warning.outline {
     border: 1px solid #ffd965;
      color: #e4ac00;
 }
 
-.button.default.warning:hover,
-.button.default.warning:focus {
+.button.warning.outline:hover,
+.button.warning.outline:focus {
     background-color: #ffd965;
 }
 
-.button.default.danger {
+.button.danger.outline {
     border: 1px solid #ff3e59;
      color: #e24343;
 }
 
-.button.default.danger:hover,
-.button.default.danger:focus {
+.button.danger.outline:hover,
+.button.danger.outline:focus {
     background-color: #ff3e59;
 }
 
+/*
+    non-specific buttons
+*/
+.button.white {
+    background-color: white;
+}
+
+.button.white:hover,
+.button.white:focus {
+    background-color: #f2f2f2;
+}
+
 .button.light {
-    background-color: #f4f4f4;
+    background-color: #f2f2f2;
 }
 
 .button.light:hover,
 .button.light:focus {
     background-color: #eee;
 }
+
+/*
+    semantic buttons
+*/
 
 .button.primary {
     background-color: #1ba2eb;
@@ -160,6 +176,10 @@
     background-color: #f33b55;
 	       color: #fff;
 }
+
+/*
+    button sizes
+*/
 
 .button.small {
     line-height: 30px;
