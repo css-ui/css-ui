@@ -30,66 +30,59 @@
    ========================================================================== */
 .button.primary {
     background-color: #1ba2eb;
-    color: #fff;
+    color: white;
 }
 
 .button.primary:hover,
 .button.primary:focus {
     background-color: #199adf;
-    color: #fff;
 }
 
 .button.common {
     background-color: #545454;
-    color: #fff;
+    color: white;
 }
 
 .button.common:hover,
 .button.common:focus {
     background-color: #4b4b4b;
-    color: #fff;
 }
 
 .button.success {
     background-color: #52d064;
-    color: #fff;
+    color: white;
 }
 
 .button.success:hover,
 .button.success:focus {
     background-color: #4fc860;
-    color: #fff;
 }
 
 .button.warning {
     background-color: #ffd965;
-    color: #5a5031;
+    color: #a76600;
 }
 
 .button.warning:hover,
 .button.warning:focus {
     background-color: #fad35b;
-    color: #5a5031;
 }
 
 .button.danger {
     background-color: #ff3e59;
-    color: #fff;
+    color: white;
 }
 
 .button.danger:hover,
 .button.danger:focus {
     background-color: #f33b55;
-    color: #fff;
 }
 
 .button.primary,
 .button.common,
 .button.success,
-.button.warning,
 .button.danger,
-.button.white,
-.button.light {
+.button.warning {
     border: none;
     line-height: 36px;
 }
@@ -104,6 +97,7 @@
 .button.primary.outline:hover,
 .button.primary.outline:focus {
     background-color: #1ba2eb;
+    color: white;
 }
 
 .button.common.outline {
@@ -114,6 +108,7 @@
 .button.common.outline:hover,
 .button.common.outline:focus {
     background-color: #545454;
+    color: white;
 }
 
 .button.success.outline {
@@ -124,6 +119,7 @@
 .button.success.outline:hover,
 .button.success.outline:focus {
     background-color: #52d064;
+    color: white;
 }
 
 .button.warning.outline {
@@ -134,6 +130,7 @@
 .button.warning.outline:hover,
 .button.warning.outline:focus {
     background-color: #ffd965;
+    color: #a76600;
 }
 
 .button.danger.outline {
@@ -144,6 +141,7 @@
 .button.danger.outline:hover,
 .button.danger.outline:focus {
     background-color: #ff3e59;
+    color: white;
 }
 
 .button.primary.outline,
