@@ -2,7 +2,7 @@
 /* Buttons style
    ========================================================================== */
 .button {
-    background-color: transparent;
+    background: transparent;
     border: 1px solid #cfcfcf;
     border-radius: 3px;
     box-sizing: border-box;
@@ -23,59 +23,59 @@
 .button:focus {
     border-color: #b3b3b3;
     color: #2f2f2f;
-    outline: none;
+    outline: 0;
 }
 
 /* Semantic buttons
    ========================================================================== */
 .button.primary {
-    background-color: #1ba2eb;
-    color: white;
+    background: #1ba2eb;
+    color: #fff;
 }
 
 .button.primary:hover,
 .button.primary:focus {
-    background-color: #199adf;
+    background: #199adf;
 }
 
 .button.common {
-    background-color: #545454;
-    color: white;
+    background: #545454;
+    color: #fff;
 }
 
 .button.common:hover,
 .button.common:focus {
-    background-color: #4b4b4b;
+    background: #4b4b4b;
 }
 
 .button.success {
-    background-color: #52d064;
-    color: white;
+    background: #52d064;
+    color: #fff;
 }
 
 .button.success:hover,
 .button.success:focus {
-    background-color: #4fc860;
+    background: #4fc860;
 }
 
 .button.warning {
-    background-color: #ffd965;
+    background: #ffd965;
     color: #a76600;
 }
 
 .button.warning:hover,
 .button.warning:focus {
-    background-color: #fad35b;
+    background: #fad35b;
 }
 
 .button.danger {
-    background-color: #ff3e59;
-    color: white;
+    background: #ff3e59;
+    color: #fff;
 }
 
 .button.danger:hover,
 .button.danger:focus {
-    background-color: #f33b55;
+    background: #f33b55;
 }
 
 .button.primary,
@@ -83,7 +83,7 @@
 .button.success,
 .button.danger,
 .button.warning {
-    border: none;
+    border: 0;
     line-height: 36px;
 }
 
@@ -96,8 +96,8 @@
 
 .button.primary.outline:hover,
 .button.primary.outline:focus {
-    background-color: #1ba2eb;
-    color: white;
+    background: #1ba2eb;
+    color: #fff;
 }
 
 .button.common.outline {
@@ -107,8 +107,8 @@
 
 .button.common.outline:hover,
 .button.common.outline:focus {
-    background-color: #545454;
-    color: white;
+    background: #545454;
+    color: #fff;
 }
 
 .button.success.outline {
@@ -118,8 +118,8 @@
 
 .button.success.outline:hover,
 .button.success.outline:focus {
-    background-color: #52d064;
-    color: white;
+    background: #52d064;
+    color: #fff;
 }
 
 .button.warning.outline {
@@ -129,7 +129,7 @@
 
 .button.warning.outline:hover,
 .button.warning.outline:focus {
-    background-color: #ffd965;
+    background: #ffd965;
     color: #a76600;
 }
 
@@ -140,8 +140,8 @@
 
 .button.danger.outline:hover,
 .button.danger.outline:focus {
-    background-color: #ff3e59;
-    color: white;
+    background: #ff3e59;
+    color: #fff;
 }
 
 .button.primary.outline,
@@ -156,21 +156,26 @@
 /* Non-specific buttons
    ========================================================================== */
 .button.white {
-    background-color: white;
+    background: #fff;
 }
 
 .button.white:hover,
 .button.white:focus {
-    background-color: #f2f2f2;
+    background: #f2f2f2;
 }
 
 .button.light {
-    background-color: #f2f2f2;
+    background: #f2f2f2;
 }
 
 .button.light:hover,
 .button.light:focus {
-    background-color: #eee;
+    background: #eee;
+}
+
+.button.white,
+.button.light {
+    border: 0;
 }
 
 /* Buton sizes
