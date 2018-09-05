@@ -1,5 +1,5 @@
 
-/* Base style
+/* base style
    ========================================================================== */
 html {
     box-sizing: border-box;
@@ -23,14 +23,14 @@ body {
     position: relative;
 }
 
-/* Hyperlink
+/* hyperlink
    ========================================================================== */
 a {
     color: #11abfe;
 }
 
 
-/* Typography
+/* typography
    ========================================================================== */
 p {
     margin-top: 0;
@@ -90,7 +90,7 @@ h6 {
 
 }
 
-/* Lists
+/* lists
    ========================================================================== */
 ul {
     list-style: circle inside;
@@ -117,7 +117,7 @@ li {
     margin-bottom: 1rem;
 }
 
-/* Grouping content
+/* grouping content
    ========================================================================== */
 hr {
     margin-top: 3rem;
@@ -147,7 +147,7 @@ pre > code {
     word-wrap: break-word;
 }
 
-/* Tables
+/* tables
    ========================================================================== */
 th, td {
     border-bottom: 1px solid #e1e1e1;
@@ -165,7 +165,7 @@ td:last-child {
     padding-right: 0;
 }
 
-/* Spacing
+/* spacing
    ========================================================================== */
 pre, blockquote, dl, figure, table, p, ul, ol {
     margin-bottom: 1.5rem;

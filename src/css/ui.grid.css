@@ -1,5 +1,5 @@
 
-/* Grid style
+/* grid style
    ========================================================================== */
 .container {
     box-sizing: border-box;
@@ -180,9 +180,8 @@
 
 }
 
-/*
-    clearing
-*/
+/* clearing
+   ========================================================================== */
 .container:after,
 .row:after {
     clear: both;

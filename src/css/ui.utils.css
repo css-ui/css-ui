@@ -1,25 +1,25 @@
 
-/* Utils style
+/* utils style
    ========================================================================== */
 .wrapper {
     display: block;
 }
 
-/* Full width automatically adapts
+/* full width automatically adapts
    ========================================================================== */
 .full.width {
     box-sizing: border-box;
     width: 100%;
 }
 
-/* Maximum width automatically adapts
+/* maximum width automatically adapts
    ========================================================================== */
 .max.width {
     box-sizing: border-box;
     max-width: 100%;
 }
 
-/* Floats
+/* floats
    ========================================================================== */
 .float.right {
     float: right;
@@ -29,7 +29,7 @@
     float: left;
 }
 
-/* Text align
+/* text align
    ========================================================================== */
 .align.right {
     text-align: right;
@@ -43,13 +43,13 @@
     text-align: left;
 }
 
-/* Hide element
+/* hide element
    ========================================================================== */
 .screen.reader {
     display: none;
 }
 
-/* Boottom footer
+/* boottom footer
    ========================================================================== */
 .bottom.footer  {
     bottom: 0;
@@ -58,7 +58,7 @@
     right: 0;
 }
 
-/* Clearing
+/* clearing
    ========================================================================== */
 .clear:after {
     clear: both;
