@@ -7,21 +7,12 @@
     padding: 20px;
 }
 
-.message.primary {
+.message.info {
     background: #1ba2eb;
-}
-
-.message.common {
-    background: #545454;
 }
 
 .message.success {
     background: #52d064;
-}
-
-.message.warning {
-    background: #ffd965;
-    color: #5a5031;
 }
 
 .message.danger {
