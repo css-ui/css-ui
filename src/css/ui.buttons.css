@@ -29,13 +29,13 @@
 /* semantic buttons
    ========================================================================== */
 .button.primary {
-    background: #1ba2eb;
+    background: #1795f8;
     color: #fff;
 }
 
 .button.primary:hover,
 .button.primary:focus {
-    background: #199adf;
+    background: #168ff0;
 }
 
 .button.common {
@@ -90,13 +90,13 @@
 /* outline buttons
    ========================================================================== */
 .button.primary.outline {
-    border: 1px solid #1ba2eb;
+    border: 1px solid #1795f8;
     color: #10a2f1;
 }
 
 .button.primary.outline:hover,
 .button.primary.outline:focus {
-    background: #1ba2eb;
+    background: #1795f8;
     color: #fff;
 }
 
