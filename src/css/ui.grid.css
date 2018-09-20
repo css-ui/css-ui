@@ -4,27 +4,8 @@
 .container {
     box-sizing: border-box;
     margin: 0 auto;
-    max-width: 960px;
-    padding: 0 20px;
     position: relative;
     width: 100%;
-}
-
-@media only screen and (min-width: 768px) {
-
-    .container {
-	padding: 0;
-	width: 85%;
-    }
-
-}
-
-@media only screen and (min-width: 1170px) {
-
-    .container {
-	width: 80%;
-    }
-
 }
 
 .column,
@@ -34,7 +15,7 @@
     width: 100%;
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 480px) {
 
     .column,
     .columns {
