@@ -30,9 +30,9 @@ textarea {
     border: 1px solid #cfcfcf;
     border-radius: 3px;
     box-sizing: border-box;
-    display: inline-block;
+    display: block;
     height: 36px;
-    margin-bottom: 0.375em;
+    margin-bottom: 6px;
     min-width: 200px;
     padding: 0.5em 0.6em;
 }
@@ -149,8 +149,80 @@ input, fieldset {
     margin-bottom: 1.5rem;
 }
 
+/* inline
+   ========================================================================== */
+form input.inline {
+    float: left;
+    margin-right: 6px;
+}
 
-/* help info for input
+/* search
+   ========================================================================== */
+form.search input.find {
+    border-right: 0;
+    border-radius: 0;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    margin-right: 0;
+    float: left;
+}
+
+form.search button,
+form.search [type="button"],
+form.search [type="submit"] {
+    border-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+/* group
+   ========================================================================== */
+form.group input,
+form.group textarea,
+form.group select {
+    margin: 0 0 -1px;
+    position: relative;
+    top: -1px;
+}
+
+form.group input:focus,
+form.group textarea:focus,
+form.group select:focus {
+    z-index: 1;
+}
+
+form.group input:first-child,
+form.group textarea:first-child,
+form.group select:first-child {
+    top: -1px;
+}
+
+form.group input.top,
+form.group select.top {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+form.group input.bottom,
+form.group textarea.bottom,
+form.group select.bottom {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+form.group input.middle,
+form.group select.middle {
+    border-radius: 0;
+}
+
+form.group button,
+form.group [type="button"],
+form.group [type="reset"],
+form.group [type="submit"] {
+    margin-top: 6px;
+}
+
+/* help info
    ========================================================================== */
 i.help {
     display: block;
