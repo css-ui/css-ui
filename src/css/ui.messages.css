@@ -15,6 +15,11 @@
     background: #52d064;
 }
 
+.message.warning {
+    background: #ffd965;
+    color: #5a5031;
+}
+
 .message.danger {
     background: #ff3e59;
 }
