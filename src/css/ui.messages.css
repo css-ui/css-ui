@@ -4,7 +4,7 @@
 .message {
     border-radius: 3px;
     color: #fff;
-    padding: 20px;
+    padding: 8px 12px;
 }
 
 .message.info {
