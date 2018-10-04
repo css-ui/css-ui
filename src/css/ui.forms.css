@@ -33,8 +33,17 @@ textarea {
     display: block;
     height: 36px;
     margin-bottom: 6px;
-    min-width: 200px;
     padding: 0 0.5em;
+}
+
+[type="password"],
+[type="number"],
+[type="search"],
+[type="email"],
+[type="text"],
+[type="tel"],
+[type="url"] {
+    min-width: 200px;
 }
 
 select {
@@ -181,41 +190,31 @@ form.search [type="submit"] {
 
 /* group
    ========================================================================== */
-form.group input,
-form.group textarea,
-form.group select {
+form.group input {
     margin: 0 0 -1px;
     position: relative;
     top: -1px;
 }
 
-form.group input:focus,
-form.group textarea:focus,
-form.group select:focus {
+form.group input:focus {
     z-index: 1;
 }
 
-form.group input:first-child,
-form.group textarea:first-child,
-form.group select:first-child {
+form.group input:first-child {
     top: -1px;
 }
 
-form.group input.top,
-form.group select.top {
+form.group input.top {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
 
-form.group input.bottom,
-form.group textarea.bottom,
-form.group select.bottom {
+form.group input.bottom {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
 
-form.group input.middle,
-form.group select.middle {
+form.group input.middle {
     border-radius: 0;
 }
 
@@ -224,6 +223,37 @@ form.group [type="button"],
 form.group [type="reset"],
 form.group [type="submit"] {
     margin-top: 6px;
+}
+
+/* radio input
+   ========================================================================== */
+.radio {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 0 0 0 22px;
+    position: relative;
+    user-select: none;
+}
+
+.radio input {
+    visibility: hidden;
+    position: absolute;
+    display: none;
+}
+
+.radio .checkmark {
+    border: 1px solid #2197f4;
+    border-radius: 50%;
+    height: 13px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+    width: 13px;
+}
+
+.radio input:checked ~ .checkmark {
+    background: #2197f4;
 }
 
 /* help info
