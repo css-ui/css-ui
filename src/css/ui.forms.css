@@ -34,7 +34,11 @@ textarea {
     height: 36px;
     margin-bottom: 6px;
     min-width: 200px;
-    padding: 0.5em 0.6em;
+    padding: 0 0.5em;
+}
+
+select {
+    padding-left: 0.250em;
 }
 
 [type="password"],
