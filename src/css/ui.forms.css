@@ -190,32 +190,32 @@ form.search [type="submit"] {
 
 /* group
    ========================================================================== */
-form.group input {
+form.group .unite {
     margin: 0 0 -1px;
     position: relative;
     top: -1px;
 }
 
-form.group input:focus {
-    z-index: 1;
-}
-
-form.group input:first-child {
+form.group .unite:first-child {
     top: -1px;
 }
 
-form.group input.top {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-}
-
-form.group input.bottom {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-}
-
-form.group input.middle {
+form.group .unite {
     border-radius: 0;
+}
+
+form.group .unite:focus {
+    z-index: 1;
+}
+
+form.group .unite.first {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+form.group .unite.last {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 
 form.group button,
