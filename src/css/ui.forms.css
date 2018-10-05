@@ -225,8 +225,9 @@ form.group [type="submit"] {
     margin-top: 6px;
 }
 
-/* radio input
+/* radio and checkbox
    ========================================================================== */
+.check,
 .radio {
     cursor: pointer;
     display: inline-block;
@@ -236,14 +237,29 @@ form.group [type="submit"] {
     user-select: none;
 }
 
+.check input,
 .radio input {
     visibility: hidden;
     position: absolute;
     display: none;
 }
 
+.check .checkmark:after,
+.radio .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.check input:checked ~ .checkmark:after,
+.radio input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* radio
+   ========================================================================== */
 .radio .checkmark {
-    border: 1px solid #2197f4;
+    border: 1px solid #c5c5c5;
     border-radius: 50%;
     height: 13px;
     left: 0;
@@ -253,7 +269,60 @@ form.group [type="submit"] {
 }
 
 .radio input:checked ~ .checkmark {
-    background: #2197f4;
+    background: #fff;
+}
+
+.radio .checkmark:after {
+    top: 3px;
+    left: 3px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #c5c5c5;
+}
+
+/* checkbox
+   ========================================================================== */
+.check .checkmark {
+    border: 1px solid #c5c5c5;
+    border-radius: 15%;
+    height: 13px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+    width: 13px;
+}
+
+.check input:checked ~ .checkmark {
+    background: #fff;
+}
+
+.check .checkmark:after {
+    left: 3px;
+    top: 1px;
+    width: 5px;
+    height: 7px;
+    border: solid #c5c5c5;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+/* radio and checkbox colors
+   ========================================================================== */
+.radio .checkmark.primary:after {
+    background: #1795f8;
+}
+
+.radio .checkmark.common:after {
+    background: #545454;
+}
+
+.check .checkmark.primary:after {
+    border-color: #1795f8;
+}
+
+.check .checkmark.common:after {
+    border-color: #545454;
 }
 
 /* help info
