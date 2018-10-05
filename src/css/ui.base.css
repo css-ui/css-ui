@@ -170,18 +170,3 @@ td:last-child {
 pre, blockquote, dl, figure, table, p, ul, ol {
     margin-bottom: 1.5rem;
 }
-
-blockquote:before,
-blockquote:after {
-    font-size: 1.63em;
-    line-height: 1;
-    padding: 8px;
-}
-
-blockquote:before {
-    content: open-quote;
-}
-
-blockquote:after {
-    content: close-quote;
-}

@@ -5,6 +5,21 @@
     display: block;
 }
 
+.quote:before,
+.quote:after {
+    font-size: 1.63em;
+    line-height: 1;
+    padding: 8px;
+}
+
+.quote:before {
+    content: open-quote;
+}
+
+.quote:after {
+    content: close-quote;
+}
+
 /* full width automatically adapts
    ========================================================================== */
 .full.width {
