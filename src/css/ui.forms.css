@@ -59,8 +59,6 @@ select {
 [type="url"],
 textarea {
     appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
 }
 
 [type="password"]:focus,
@@ -83,32 +81,33 @@ textarea:focus {
     vertical-align: middle;
 }
 
+[type="file"]:focus,
 [type="radio"]:focus,
 [type="checkbox"]:focus {
-    outline: thin dotted #4d4d4d;
+    outline: thin dotted #b3b3b3;
     outline: 1px auto #b3b3b3;
 }
 
 [disabled] {
-    background: #f5f5f5;
+    background: #f9f9f9;
     border-color: #e3e3e3;
-    color: #c6c6c6;
+    color: #cbcbcb;
     cursor: not-allowed;
 }
 
 [readonly] {
-    background: #efefef;
-    border-color: #d3d3d3;
-    color: #838383;
+    background: #fbfbfb;
+    border-color: #cfcfcf;
+    color: #cbcbcb;
 }
 
 :focus:invalid {
-    border-color: #e77e7b;
-    color: #e77e7b;
+    border-color: #ff3e59;
+    color: #ff3e59;
 }
 
 :focus:invalid:focus {
-    border-color: #e77e7b;
+    border-color: #ff3e59;
 }
 
 ::placeholder {
@@ -127,7 +126,7 @@ textarea:focus {
 [type="file"]:focus:invalid:focus,
 [type="radio"]:focus:invalid:focus,
 [type="checkbox"]:focus:invalid:focus {
-    outline-color: #e77e7b;
+    outline-color: #ff3e59;
 }
 
 [multiple] {
