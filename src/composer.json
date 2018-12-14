@@ -1,0 +1,14 @@
+{
+	"name": "css-ui/css-ui",
+	"description": "Basic styles for simple responsive websites.",
+	"license": ["MIT"],
+	"authors": [
+		{
+			"name": "Zdeněk Papučík",
+			"homepage": "https://github.com/accgit"
+		}
+	],
+	"require": {
+		"accgit/normalize.css": "^8.0"
+	}
+}
