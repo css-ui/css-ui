@@ -9,6 +9,6 @@
 		}
 	],
 	"require": {
-		"accgit/normalize.css": "^8.0"
+		"accgit/normalize.css": "^v8.0"
 	}
 }
