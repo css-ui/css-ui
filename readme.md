@@ -4,6 +4,16 @@
 
 Basic styles for simple responsive websites.
 
+## Requirements
+
+- normalize.css
+
+## Installation
+
+```
+composer require css-ui/css-ui
+```
+
 ## Demo
 
 https://css-ui.github.io/
