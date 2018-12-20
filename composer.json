@@ -1,0 +1,16 @@
+{
+	"name": "slimpart/css-ui",
+	"description": "Basic styles for simple responsive websites.",
+	"license": ["MIT"],
+	"authors": [
+		{
+			"name": "Zdeněk Papučík",
+			"homepage": "https://github.com/accgit"
+		}
+	],
+	"extra": {
+		"assets-files": [
+			"src/cssui.css"
+		]
+	}
+}
