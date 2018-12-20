@@ -6,7 +6,7 @@ Basic styles for simple responsive websites.
 
 ## Requirements
 
-[normalize.css](https://github.com/necolas/normalize.css)
+- [normalize.css](https://github.com/necolas/normalize.css)
 
 ## Installation
 
