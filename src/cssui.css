@@ -171,7 +171,6 @@ pre, blockquote, dl, figure, table, p, ul, ol {
     margin-bottom: 1.5rem;
 }
 
-
 /* buttons style
    ========================================================================== */
 .button {
@@ -373,7 +372,6 @@ pre, blockquote, dl, figure, table, p, ul, ol {
     line-height: 48px;
     padding: 0 16px;
 }
-
 
 /* forms style
    ========================================================================== */
@@ -713,7 +711,6 @@ i.help.inline {
     display: inline-block;
 }
 
-
 /* grid style
    ========================================================================== */
 .container {
@@ -885,7 +882,6 @@ i.help.inline {
     display: table;
 }
 
-
 /* messages style
    ========================================================================== */
 .message {
@@ -910,7 +906,6 @@ i.help.inline {
 .message.danger {
     background: #ff3e59;
 }
-
 
 /* utils style
    ========================================================================== */
