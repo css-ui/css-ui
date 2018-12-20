@@ -10,5 +10,10 @@
 	],
 	"require": {
 		"accgit/normalize.css": "^v8.0"
+	},
+	"extra": {
+		"assets-files": [
+			"src/cssui.css"
+		]
 	}
 }
