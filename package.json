@@ -2,21 +2,10 @@
 	"name": "css-ui",
 	"version": "2.3.0",
 	"description": "Basic styles for simple websites.",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/css-ui/css-ui.git"
-	},
-	"keywords": [
-		"css"
-	],
+	"main": "cssui.css",
+	"repository": "https://github.com/css-ui/css-ui.git"
 	"author": "Zdeněk Papučík",
 	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/css-ui/css-ui/issues"
-	},
-	"homepage": "https://github.com/css-ui/css-ui#readme"
+	"bugs": "https://github.com/css-ui/css-ui/issues"
+	"homepage": "https://github.com/css-ui/css-ui"
 }
