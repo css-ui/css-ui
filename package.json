@@ -1,23 +1,25 @@
 {
-  "name": "cssui-simple",
-  "version": "2.3.5",
-  "description": "Basic styles for simple websites.",
-  "main": "cssui.css",
-  "repository": {
-    "type": "git",
-    "url": "git+https://accgit@github.com/css-ui/css-ui.git"
-  },
-  "keywords": [
-    "css",
-    "css-framework"
-  ],
-  "author": "Zdeněk Papučík <zdenek.papucik@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/css-ui/css-ui/issues"
-  },
-  "dependencies": {
-    "normalize.css": "^8.0"
-  },
-  "homepage": "https://github.com/css-ui/css-ui#readme"
+	"name": "css-ui-simple",
+	"version": "2.3.6",
+	"description": "Basic styles for simple websites.",
+	"main": "cssui.css",
+	"repository": {
+		"type": "git",
+		"url": "git+https://accgit@github.com/css-ui/css-ui.git"
+	},
+	"keywords": [
+		"css",
+		"framework",
+		"web"
+	],
+	"author": "Zdeněk Papučík <zdenek.papucik@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/css-ui/css-ui/issues"
+	},
+	"homepage": "https://github.com/css-ui/css-ui",
+	"dependencies": {
+		"normalize.css": "^8.0"
+	},
+	"devDependencies": {},
 }

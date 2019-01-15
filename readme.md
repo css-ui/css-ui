@@ -4,6 +4,12 @@
 
 Basic styles for simple responsive websites.
 
+ ## Installation	
+ 
+```	
+npm i css-ui-simple
+```
+
 ## Demo
 
 https://css-ui.github.io/
