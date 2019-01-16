@@ -1,6 +1,6 @@
 {
   "name": "css-ui-simple",
-  "version": "2.4",
+  "version": "2.4.0",
   "description": "Basic styles for simple websites.",
   "main": "src/cssui.css",
   "repository": {
@@ -12,7 +12,7 @@
     "framework",
     "web"
   ],
-  "author": "Zdenìk Papuèík <zdenek.papucik@gmail.com>",
+  "author": "ZdenÄ›k PapuÄÃ­k <zdenek.papucik@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/css-ui/css-ui/issues"
