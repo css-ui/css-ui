@@ -4,12 +4,35 @@
 
 Basic styles for simple responsive websites.
 
- ## Installation	
- 
-```	
+ ## Installation
+
+```
 npm i css-ui-simple
 ```
 
 ## Demo
 
 https://css-ui.github.io/
+
+## Quick start
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- css -->
+	<link rel="stylesheet" href="path/to/css/normalize.css">
+	<link rel="stylesheet" href="path/to/css/cssui.css">
+
+	<!-- website title -->
+	<title>Hello, World!</title>
+</head>
+<body>
+	<h1>Hello, World!</h1>
+</body>
+</html>
+```
