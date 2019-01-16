@@ -1,0 +1,23 @@
+{
+	"require": {
+		"npm-asset/css-ui-simple": "^2.4",
+		"npm-asset/normalize.css": "^8.0"
+	},
+	"config": {
+		"fxp-asset": {
+			"ignore-files": {
+				"npm-asset/css-ui-simple": [
+					"src/css/"
+				],
+				"npm-asset/normalize-css": [
+					".*",
+					".yml",
+					"test.html"
+				]
+			},
+			"installer-paths": {
+				"npm-asset-library": "www/assets"
+			}
+		}
+	}
+}
