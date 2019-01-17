@@ -1,6 +1,6 @@
 {
 	"require": {
-		"npm-asset/normalize.css": "^8.0"
+		"npm-asset/normalize.css": "^8.0.1"
 	},
 	"config": {
 		"fxp-asset": {
