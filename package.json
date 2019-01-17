@@ -17,7 +17,7 @@
 		"url": "https://github.com/css-ui/css-ui/issues"
 	},
 	"dependencies": {
-		"normalize.css": "^8.0"
+		"normalize.css": "^8.0.1"
 	},
 	"homepage": "https://github.com/css-ui/css-ui#readme"
 }
