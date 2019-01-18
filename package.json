@@ -1,6 +1,6 @@
 {
 	"name": "css-ui-simple",
-	"version": "2.4.4",
+	"version": "2.5.0",
 	"description": "Basic styles for simple websites.",
 	"main": "css/cssui.css",
 	"repository": {

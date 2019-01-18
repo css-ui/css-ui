@@ -4,15 +4,10 @@
 
 Basic styles for simple responsive websites.
 
-## Requirements
-
-- composer
-- [NPM/Bower Dependency Manager for Composer](https://github.com/fxpio/composer-asset-plugin)
-
 ## Installation
 
 ```
-composer install
+npm install --save css-ui-simple
 ```
 
 ## Demo
