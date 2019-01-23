@@ -36,16 +36,6 @@ textarea {
     padding: 0 0.5em;
 }
 
-[type="password"],
-[type="number"],
-[type="search"],
-[type="email"],
-[type="text"],
-[type="tel"],
-[type="url"] {
-    min-width: 200px;
-}
-
 select {
     padding-left: 0.250em;
 }
